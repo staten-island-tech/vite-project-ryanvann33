@@ -1,19 +1,26 @@
-const data = 
-      {
-        name: "Ice Cream",
-        price: "6.50",
-        menu_number: "1"
+const data = [
+  {
+    name: "Ice Cream Sundae",
+    price: "6.50",
+    menu_number: "1",
+  },
+  {
+    name: "Fudge Brownie",
+    price: "4.00",
+    menu_number: "2",
+  },
+  {
+    name: "Milkshake",
+    price: "5.30",
+    menu_number: "3",
+  },
+  { name: "Lavacake", price: "9.00", menu_number: "4" },
 
-        id: 663712,
-        original_language: "en",
-        original_title: "Terrifier 2",
-        overview:
-          "After being resurrected by a sinister entity, Art the Clown returns to Miles County where he must hunt down and destroy a teenage girl and her younger brother on Halloween night.  As the body count rises, the siblings fight to stay alive while uncovering the true nature of Art's evil intent.",
-        popularity: 7117.087,
-        poster_path: "/wRKHUqYGrp3PO91mZVQ18xlwYzW.jpg",
-        release_date: "2022-10-06",
-        title: "Terrifier 2",
-        video: false,
-        vote_average: 7.2,
-        vote_count: 305,
-      }
+  { name: "Cinnamon Roll Bread", price: "8.00", menu_number: "5" },
+
+  { name: "malted", price: "7.50", menu_number: "6" },
+  
+  { name: "smores cookie", price: "5.00", menu_number: "7"},
+
+  { name: }
+];
