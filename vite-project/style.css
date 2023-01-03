@@ -1,21 +1,44 @@
-html, body, *{
+.box{
   padding: 0; 
   margin: 0;   
   box-sizing: border-box;
   font-size: 100%;
-  background-color: pink;
-  
+  background-color:var(--primary);
+  text-align: center;
+  }
+
+  .main{
+    background-color: var(--secondary);
+  }
+
+:root{
+  --pink:#FFC0CB;
+  --blue:#0000ff;
+  --white:#FFFFFF;
+  --black:#000000;
+  --light-pink:#FFB6C1;
+  --deep-pink:#FF1493;
+  --hot-pink:#FF69B4;
+
+--primary: var(--pink);
+--secondary: var(--light-pink);
 }
+
+.dark{
+  --primary: var(--hot-pink);
+  --secondary: var(--deep-pink);
+}
+.light{
+  --primary: var(--light-pink);
+  --secondary: var(--pink);
+}
+
 
 .parent{
   font-size: 30px;
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
-  
-
-
-
 }
 
 
@@ -65,19 +88,24 @@ html, body, *{
   
 
 .child-1{
-  border: 3px solid pink;
-  height: 500px;
-  width: 500px;
-  margin-left: 20px;
+  background-color: slateblue;
+  height: 550px;
+  width: 400px;
+  margin-left: 25px;
+  margin-top: 20px;
 }
 .child-2{
-  border: 3px solid pink;
-  height: 400px;
+  background-color: slateblue;
+  height: 550px;
   width: 400px;
+  margin-top: 20px;
   
 }
 .child-3{
-  border: 3px solid pink;
+  background-color: slateblue;
+  height: 550px;
+  width: 400px;
+  margin-top: 20px;
   
  
   
@@ -93,60 +121,60 @@ html, body, *{
   font-family: sans-serif;
   animation: fadeIn 5s;
 }
-.office{
-  width: 400px;
-  height: 400px;
+.sundae{
+  width: 250px;
+  height: 250px;
   border: solid black 3px;
   box-shadow: 5px 5px 5px 5px;
 }
-.breakingbad{
-  width: 400px;
-  height: 400px;
+.brownie{
+  width: 250px;
+  height: 250px;
   border: solid black 3px;
   box-shadow: 5px 5px 5px 5px;
 }
-.lucifer{
-  width: 400px;
-  height: 400px;
+.milkshake{
+  width: 250px;
+  height: 250px;
   border: solid black 3px;
   box-shadow: 5px 5px 5px 5px;
 }
-.spongebob{
-  height: 400px;
-  width: 400px;
+.lavacake{
+  height: 250px;
+  width: 250px;
   border: solid black 3px;
   box-shadow: 5px 5px 5px 5px;
 }
 .aot{
-  height: 400px;
-  width: 400px;
+  height: 250px;
+  width: 250px;
   flex-wrap: wrap;
   border: solid black 3px;
   box-shadow: 5px 5px 5px 5px;
   transition: all 0.3s;
   outline-offset: 1rem;
 }
-.theboys{
-  height: 400px;
-  width: 400px;
+.malted{
+  height: 250px;
+  width: 250px;
   border: solid black 3px;
   box-shadow: 5px 5px 5px 5px;
 }
-.moonknight{
-  height: 400px;
-  width: 400px;
+.cookies{
+  height: 250px;
+  width: 250px;
   border: solid black 3px;
   box-shadow: 5px 5px 5px 5px;
 }
-.strangerthings{
-  height: 400px;
-  width: 400px; 
+.coffeecake{
+  height: 250px;
+  width: 250px; 
   border: solid black 3px;
   box-shadow: 5px 5px 5px 5px;
 }
-.you{
-  height: 400px;
-  width: 400px; 
+.oreocake{
+  height: 250px;
+  width: 250px; 
   border: solid black 3px;
   box-shadow: 5px 5px 5px 5px;
 }
@@ -155,9 +183,7 @@ html, body, *{
   font-size: 40px;
   
 }
-.aot{
-  
-}
+
 .aot:hover{
   transform: scale(1.1);
 }
@@ -172,38 +198,5 @@ html, body, *{
 }
 .lufcifer:hover{
   transform:rotate(360deg);
-}
+};
 
-@keyframes fadeIn{
-  0% {opacity: 0;}
-  100% {opacity: 1}
-}
-@media (max-width: 500px) {
-  body{
-      color: blue;
-      }
-      img{
-              width: 20rem;
-              height: 20rem
-              
-          }
-      }
-
-@media (orientation: landscape) and (min-width: 500px) {
-  .title{
-      color: cyan;
-  }
-}
-
-@meida (orientation: portrait) {
-  .subtitle {
-      color: green
-  }
-}
-@meida{
-  img{
-      width: 20rem;
-      height: 20rem
-      
-  }
-}
