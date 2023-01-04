@@ -1,10 +1,20 @@
 .box{
   padding: 0; 
-  margin: 0;   
+  margin: 20px;   
   box-sizing: border-box;
   font-size: 100%;
   background-color:var(--primary);
   text-align: center;
+  width: 28%;
+border: 2px solid black;  
+}
+
+  #dessert {
+    margin: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
   }
 
   .main{
@@ -64,139 +74,16 @@
 }
 
 
-.child{
-  width: 28%;
-  transition: all 0.3s;
-}
 
-.child:hover{
-  transform: scale(1.1);
-}
-
-.spongebob{
-  transition: 1s;
-}
-.spongebob:hover{
-  transform: rotate(360deg);
-}
-.lucifer{
-  transition: 1s;
-}
-.lucifer:hover{
-  transform: scale(.8);
-}
-  
-
-.child-1{
-  background-color: slateblue;
-  height: 550px;
-  width: 400px;
-  margin-left: 25px;
-  margin-top: 20px;
-}
-.child-2{
-  background-color: slateblue;
-  height: 550px;
-  width: 400px;
-  margin-top: 20px;
-  
-}
-.child-3{
-  background-color: slateblue;
-  height: 550px;
-  width: 400px;
-  margin-top: 20px;
   
  
   
-}
-.child-4{
-  border-color: pink;
-}
 
-.tv{
-  text-align: center;
-  font-size: 70px;
-  padding-top: 30px;
-  font-family: sans-serif;
-  animation: fadeIn 5s;
-}
-.sundae{
-  width: 250px;
-  height: 250px;
-  border: solid black 3px;
-  box-shadow: 5px 5px 5px 5px;
-}
-.brownie{
-  width: 250px;
-  height: 250px;
-  border: solid black 3px;
-  box-shadow: 5px 5px 5px 5px;
-}
-.milkshake{
-  width: 250px;
-  height: 250px;
-  border: solid black 3px;
-  box-shadow: 5px 5px 5px 5px;
-}
-.lavacake{
-  height: 250px;
-  width: 250px;
-  border: solid black 3px;
-  box-shadow: 5px 5px 5px 5px;
-}
-.aot{
-  height: 250px;
-  width: 250px;
-  flex-wrap: wrap;
-  border: solid black 3px;
-  box-shadow: 5px 5px 5px 5px;
-  transition: all 0.3s;
-  outline-offset: 1rem;
-}
-.malted{
-  height: 250px;
-  width: 250px;
-  border: solid black 3px;
-  box-shadow: 5px 5px 5px 5px;
-}
-.cookies{
-  height: 250px;
-  width: 250px;
-  border: solid black 3px;
-  box-shadow: 5px 5px 5px 5px;
-}
-.coffeecake{
-  height: 250px;
-  width: 250px; 
-  border: solid black 3px;
-  box-shadow: 5px 5px 5px 5px;
-}
-.oreocake{
-  height: 250px;
-  width: 250px; 
-  border: solid black 3px;
-  box-shadow: 5px 5px 5px 5px;
-}
-.text{
-  font-family:serif;
-  font-size: 40px;
-  
-}
 
-.aot:hover{
-  transform: scale(1.1);
-}
-.theboys{
-  transition: 1s;
-}
-.theboys:hover{
-  transform:skew(40deg);
-}
-.lucifer{
-  transition: 1s ;
-}
-.lufcifer:hover{
-  transform:rotate(360deg);
-};
 
+.w-class {
+  height: 250px;
+  width: 250px;
+  border: solid black 3px;
+  box-shadow: 5px 5px 5px 5px;
+}
