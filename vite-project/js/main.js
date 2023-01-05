@@ -55,8 +55,20 @@ makecheap();
 
 function makeexpensive() {
   document.getElementById("dessert").innerHTML = "";
-  p.filter((dessert) => dessert.img).filter((dessert) => dessert.price);
+  p.filter((dessert) => dessert.img)
+    .filter((dessert) => dessert.price > 6.0)
+    .forEach((dessert) => {
+      document.getElementById("dessert").insertAdjacentHTML(
+        "beforeend",
+        `<div class="flexlr" id=${dessert.name}>
+        <div><img class="w-image" src="${dessert.img}">
+        <p>${dessert.name}</p>
+        </div>
+        </div>`
+      );
+    });
 }
+makeexpensive();
 // function buildMain() {
 //   Menu.forEach((food) => {
 //     DOM.main.insertAdjacentHTML(
