@@ -1,13 +1,13 @@
 const menu = [
   {
-    name: "ice-cream-sundae",
+    name: "ice cream sundae",
     price: "6.50",
     menu_number: "1",
     type: "food",
     img: "https://i.pinimg.com/736x/ae/dc/16/aedc167dc4a404f9396ea9b6a6e8ddf1.jpg",
   },
   {
-    name: "fudge-brownie",
+    name: "fudge brownie",
     price: "4.00",
     menu_number: "2",
     type: "food",
@@ -29,7 +29,7 @@ const menu = [
   },
 
   {
-    name: "cinnamon-roll-bread",
+    name: "cinnamon roll bread",
     price: "8.00",
     menu_number: "5",
     type: "food",
@@ -45,7 +45,7 @@ const menu = [
   },
 
   {
-    name: "smores-cookie",
+    name: "smores cookie",
     price: "5.00",
     menu_number: "7",
     type: "food",
@@ -53,14 +53,14 @@ const menu = [
   },
 
   {
-    name: "coffee-cake",
+    name: "coffee cake",
     price: "5.40",
     menu_number: "8",
     type: "food",
     img: "https://www.thechunkychef.com/wp-content/uploads/2020/07/coffee-cake-recipe-card.jpg",
   },
   {
-    name: "oreo-cake",
+    name: "oreo cake",
     price: "8.00",
     menu_number: "9",
     type: "food",

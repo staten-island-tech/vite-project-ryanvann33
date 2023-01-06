@@ -7,6 +7,12 @@
   text-align: center;
   width: 28%;
 border: 2px solid black;  
+transition: all 0.5s;
+}
+
+.box:hover {
+  transform: scale(1.05);
+
 }
 
   #dessert {
@@ -19,6 +25,7 @@ border: 2px solid black;
 
   .main{
     background-color: var(--secondary);
+    border: solid black 2px;
   }
 
 :root{
@@ -32,6 +39,9 @@ border: 2px solid black;
 
 --primary: var(--pink);
 --secondary: var(--light-pink);
+}
+body{
+  background-color: var(--primary);
 }
 
 .dark{
@@ -75,7 +85,9 @@ border: 2px solid black;
 
 
 
-  
+  #tile{
+    text-align: center;
+  }
  
   
 
